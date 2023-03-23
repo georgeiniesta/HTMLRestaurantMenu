@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menú Facturacion</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css" </head>
+    <h1>Menu de Facturacion</h1>
+    <h2>Ingrese sus datos fiscales para que podamos proporcionarle facturas en un futuro</h2>
+    <p>Los campos obligatorios se marcan con un <abbr title = "required">*</abbr>.</p>
+<form action="confirmacionALTA.html">
+<div>
+  <label for="username">Nombre: <abbr title="required" aria-label="required">*</abbr></label>
+  <input id="username" type="text" name="username">
+  <label for="Apellido">Apellido: <abbr title="required" aria-label="required">*</abbr></label>
+  <input id="Apellido" type="text" name="Apellido">
+  <label for="RFC">RFC: <abbr title="required" aria-label="required">*</abbr></label>
+  <input id="RFC" type="text" name="RFC">
+  <label for="Direccion">Direccion: <abbr title="required" aria-label="required">*</abbr></label>
+  <input id="Direccion" type="text" name="Direccion">
+  <label for="email">Correo Electonico: <abbr title="required" aria-label="required">*</abbr></label>
+  <input id="email" type="text" name="email">
+</div>
+<section>
+    <h2>Concepto de factura</h2>
+    <p>
+      <label for="con1">Concepto Fiscal: <abbr title="required" aria-label="required">*</abbr></label>
+      <select id="con1" name="concepto" >
+        <option value="gastos_general">Gastos en general</option>
+        <option value="comidas_alimentos">Comidas y alimentos</option>
+        <option value="compra_equipos">Compra de equipos</option>
+        <option value="viaticos">Viaticos</option>
+    </select>
+</section>
+<input type="submit" value="Submit">
+</form>

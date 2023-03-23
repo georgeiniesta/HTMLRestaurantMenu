@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menú Facturacion</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css" </head>
+    <h1>Menu de Facturacion</h1>
+
+    <h2>Si no esta registrado en nuestra base de datos. Ingrese Aqui:<a href="nuevofactuuracion.html">Registrar datos para facturacion</a></h2>
+    <h2>Por favor ingrese sus datos</h2>
+
+    <form action="confirmacionfactura.html">
+        <!--No se coloca metodo post debido a estructura de demo-->
+        <div>
+            <label for="RFC">RFC:</label><br>
+            <input type="text" id="RFC" name="RFC"><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="text" id="email" name="email">
+
+        </div>
+        <input type="submit" value="Submit">
+    </form>
